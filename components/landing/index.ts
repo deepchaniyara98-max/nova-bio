@@ -1,0 +1,10 @@
+export { Navbar } from "./Navbar";
+export { Hero } from "./Hero";
+export { About } from "./About";
+export { Research } from "./Research";
+export { Capabilities } from "./Capabilities";
+export { Impact } from "./Impact";
+export { ScientificVisualization } from "./Visualization";
+export { CTA } from "./CTA";
+export { Footer } from "./Footer";
+export { HomePage } from "./HomePage";
