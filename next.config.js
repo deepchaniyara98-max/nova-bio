@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "standalone",
+  // Vercel injects its own adapter; standalone + adapter fails on Next 16
+  // with ENOENT .next/next-server.js.nft.json
+  output: process.env.VERCEL ? undefined : "standalone",
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
