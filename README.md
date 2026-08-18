@@ -79,20 +79,3 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run build
 npm run start
 ```
-
-## Deployment
-
-The app is ready for [Vercel](https://vercel.com):
-
-1. Push this repository to GitHub.
-2. Import the project in Vercel and set the root directory to `nova-bio` if it lives in a monorepo.
-3. Optionally set `NEXT_PUBLIC_SITE_URL` to the production domain.
-4. Deploy. Vercel will run `next build` automatically.
-
-## Accessibility
-
-- Semantic landmarks and heading hierarchy
-- Keyboard-accessible navigation, accordion, and form
-- Visible focus rings
-- `prefers-reduced-motion` disables Lenis, cursor, and entrance motion
-- Color contrast on primary cyan against near-black backgrounds
